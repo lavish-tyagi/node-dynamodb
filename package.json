@@ -1,0 +1,28 @@
+{
+  "name": "nodedynamodb",
+  "version": "1.0.0",
+  "description": "DynamoDB integration with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavish-tyagi/node-dynamodb.git"
+  },
+  "keywords": [
+    "nodejs",
+    "dynamodb",
+    "aws"
+  ],
+  "author": "Lavish Tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavish-tyagi/node-dynamodb/issues"
+  },
+  "homepage": "https://github.com/lavish-tyagi/node-dynamodb#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1209.0",
+    "express": "^4.18.1"
+  }
+}
